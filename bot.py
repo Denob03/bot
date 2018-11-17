@@ -5,4 +5,4 @@ client = commands.Bot(command_prefix = '.')
 @client_event
 async def on_ready():
     print ('Bot is ready. ')
-client.run(TOKEN)
+client.run('TOKEN')
